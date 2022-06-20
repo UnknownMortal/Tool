@@ -21,7 +21,7 @@ from pyrogram.types import (
     InlineQueryResultArticle,
     InputTextMessageContent,
     Message)
-from folder.rraid import zaidub_info, rzaid, runzaid
+from folder.raid import toolub_info, rtool, runtool
 from tool.cache.data import RAID
 from main import SUDO_USERS
 
@@ -123,7 +123,7 @@ async def replyramd(client: Client, message: Message):
     if userz.id == mee.id:
         await tool.edit("Jaa Na Lawde Kahe Dimag Kha rha? Khudpe Raid kyu laga rha?")
         return
-    if await zaidub_info(userz.id):
+    if await toolub_info(userz.id):
         await tool.edit("Who So Noob? Reply Raid Already Activated on that User:/")
         return
     await tool.edit("Please, Wait Fectching Using Details!")
@@ -133,7 +133,7 @@ async def replyramd(client: Client, message: Message):
         tool.edit("You Have No Chats! So Sad...")
         return
     await tool.edit("Activating Replyraid....")
-    await rzaid(userz.id, reason)
+    await rtool(userz.id, reason)
     gbanned = f"Reply Raid has Been Activated On {userz.first_name}"
     await tool.edit(gbanned)
     
@@ -157,7 +157,7 @@ async def dreplyramd(client: Client, message: Message):
     if userz.id == mee.id:
         await tool.edit("Soja Lomde...")
         return
-    if not await zaidub_info(userz.id):
+    if not await toolub_info(userz.id):
         await tool.edit("When I Replyraid Activated? On That User?:/")
         return
     await tool.edit("Please, Wait Fectching User details!")
@@ -167,7 +167,7 @@ async def dreplyramd(client: Client, message: Message):
         tool.edit("You Have No Chats! So Sad....")
         return
     await tool.edit("`De-Activating Replyraid Raid....!`")
-    await runzaid(userz.id)
+    await runtool(userz.id)
     ungbanned = f"**De-activated Replyraid Raid** [{userz.first_name}](tg://user?id={userz.id})"
     await tool.edit(ungbanned)
 

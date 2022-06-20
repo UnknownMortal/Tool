@@ -82,8 +82,9 @@ from pyrogram import __version__ as pyro_vr
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from main import *
 from pyrogram import Client
-from main import ALIVE_PIC
 from tool.sos.help import *
+
+ALIVE_PIC = " "
  
 
  

@@ -21,15 +21,15 @@ DB_URL = DB_URL
 
 
 if not STRING_SESSION1:
-    logging.error("No String Session Found! Exiting!")
+    logging.error("No String Session Found! Exiting....")
     quit(1)
 
 if not API_ID:
-    logging.error("No Api-ID Found! Exiting!")
+    logging.error("No Api-ID Found! Exiting....")
     quit(1)
 
 if not API_HASH:
-    logging.error("No ApiHash Found! Exiting!")
+    logging.error("No ApiHash Found! Exiting....")
     quit(1)
 
 if ALIVE_IMG:
@@ -210,92 +210,92 @@ else:
     bot32 = None
 
 if STRING_SESSION33:
-    bot33 = Client(session_name= STRING_SESSION33, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot33 = Client(session_name= STRING_SESSION33, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot33 = None
 
 if STRING_SESSION34:
-    bot34 = Client(session_name= STRING_SESSION34, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot34 = Client(session_name= STRING_SESSION34, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot34 = None
 
 if STRING_SESSION35:
-    bot35 = Client(session_name= STRING_SESSION35, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot35 = Client(session_name= STRING_SESSION35, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot35 = None
 
 if STRING_SESSION36:
-    bot36 = Client(session_name= STRING_SESSION36, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot36 = Client(session_name= STRING_SESSION36, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot36 = None
 
 if STRING_SESSION37:
-    bot37 = Client(session_name= STRING_SESSION37, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot37 = Client(session_name= STRING_SESSION37, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot37 = None
 
 if STRING_SESSION38:
-    bot38 = Client(session_name= STRING_SESSION38, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot38 = Client(session_name= STRING_SESSION38, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot38 = None
 
 if STRING_SESSION39:
-    bot39 = Client(session_name= STRING_SESSION39, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot39 = Client(session_name= STRING_SESSION39, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot39 = None
 
 if STRING_SESSION40:
-    bot40 = Client(session_name= STRING_SESSION40, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot40 = Client(session_name= STRING_SESSION40, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot40 = None
 
 if STRING_SESSION41:
-    bot41 = Client(session_name= STRING_SESSION41, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot41 = Client(session_name= STRING_SESSION41, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot41 = None
 
 if STRING_SESSION42:
-    bot42 = Client(session_name= STRING_SESSION42, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot42 = Client(session_name= STRING_SESSION42, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot42 = None
 
 if STRING_SESSION43:
-    bot43 = Client(session_name= STRING_SESSION43, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot43 = Client(session_name= STRING_SESSION43, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot43 = None
 
 if STRING_SESSION44:
-    bot44 = Client(session_name= STRING_SESSION44, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot44 = Client(session_name= STRING_SESSION44, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot44 = None
 
 if STRING_SESSION45:
-    bot45 = Client(session_name= STRING_SESSION45, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot45 = Client(session_name= STRING_SESSION45, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot45 = None
 
 if STRING_SESSION46:
-    bot46 = Client(session_name= STRING_SESSION46, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot46 = Client(session_name= STRING_SESSION46, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot46 = None
 
 if STRING_SESSION47:
-    bot47 = Client(session_name= STRING_SESSION47, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot47 = Client(session_name= STRING_SESSION47, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot47 = None
 
 if STRING_SESSION48:
-    bot48 = Client(session_name= STRING_SESSION48, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot48 = Client(session_name= STRING_SESSION48, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot48 = None
 
 if STRING_SESSION49:
-    bot49 = Client(session_name= STRING_SESSION49, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot49 = Client(session_name= STRING_SESSION49, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot49 = None
 
 if STRING_SESSION50:
-    bot50 = Client(session_name= STRING_SESSION50, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot50 = Client(session_name= STRING_SESSION50, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="tool"))
 else:
     bot50 = None
 
@@ -355,25 +355,32 @@ if bot12:
     bot12.join_chat("M8N_SUPPORT")
 if bot13:
     bot13.start()
-    bot12.join_chat("XCodeSupport")
+    bot13.join_chat("M8N_OFFICIAL")
+    bot13.join_chat("M8N_SUPPORT")
 if bot14:
     bot14.start()
-    bot14.join_chat("XCodeSupport")
+    bot14.join_chat("M8N_OFFICIAL")
+    bot14.join_chat("M8N_SUPPORT")
 if bot15:
     bot15.start()
-    bot15.join_chat("XCodeSupport")
+    bot15.join_chat("M8N_OFFICIAL")
+    bot15.join_chat("M8N_SUPPORT")
 if bot16:
     bot16.start()
-    bot16.join_chat("XCodeSupport")
+    bot16.join_chat("M8N_OFFICIAL")
+    bot16.join_chat("M8N_SUPPORT")
 if bot17:
     bot17.start()
-    bot17.join_chat("XCodeSupport")
+    bot17.join_chat("M8N_OFFICIAL")
+    bot17.join_chat("M8N_SUPPORT")
 if bot18:
     bot18.start()
-    bot18.join_chat("XCodeSupport")
+    bot18.join_chat("M8N_OFFICIAL")
+    bot18.join_chat("M8N_SUPPORT")
 if bot19:
     bot19.start()
-    bot19.join_chat("XCodeSupport")
+    bot19.join_chat("M8N_OFFICIAL")
+    bot19.join_chat("M8N_SUPPORT")
 if bot20:
     bot20.start()
     bot20.join_chat("M8N_OFFICIAL")

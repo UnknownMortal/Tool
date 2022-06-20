@@ -32,17 +32,6 @@ if not API_HASH:
     logging.error("No ApiHash Found! Exiting....")
     quit(1)
 
-if ALIVE_IMG:
-    ALIVE_PIC = ALIVE_IMG
-else: 
-    ALIVE_PIC = 'https://telegra.ph/file/7e98fc1a320ee7fd023b9.jpg'
-
-if MONGO_DB:
-    MONGO_DB = MONGO_DB
-else: 
-    MONGO_DB = None
-    print("Mongo Database Url not found!")
-
 if LOG_GROUP:
     Owner = LOG_GROUP
 else:

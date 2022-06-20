@@ -12,7 +12,7 @@ Don't kang Without Creadits
 from pyrogram import filters
 from traceback import format_exc
 from typing import Tuple
-from handlers.help import *
+from tool.sos.help import *
 import random
 from pyrogram import Client
 from pyrogram.errors import FloodWait, MessageNotModified
@@ -105,71 +105,71 @@ def get_text(message: Message) -> [None, str]:
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["replyraid", "rraid"], [".", "!"]))
 @Client.on_message(filters.me & filters.command(["replyraid", "rraid"], [".", "!"]))
 async def replyramd(client: Client, message: Message):
-    Zaid = await message.reply_text("`Processing..`")
+    tool = await message.reply_text("Processing.....")
     text_ = get_text(message)
     user, reason = get_user(message, text_)
     failed = 0
     if not user:
-        await Zaid.edit("`Reply To User Or Mention To Activate Replyraid `")
+        await tool.edit("Reply To User Or Mention To Activate Replyraid !!")
         return
     try:
         userz = await client.get_users(user)
     except:
-        await Zaid.edit(f"`404 : User Doesn't Exists In This Chat !`")
+        await tool.edit(f"404 : User Doesn't Exists In This Chat !")
         return
     if not reason:
         reason = "Private Reason!"
     mee= await client.get_me()
     if userz.id == mee.id:
-        await Zaid.edit("`Jaa Na Lawde Kahe Dimag Kha rha? Khudpe Raid kyu laga rha?`")
+        await tool.edit("Jaa Na Lawde Kahe Dimag Kha rha? Khudpe Raid kyu laga rha?")
         return
     if await zaidub_info(userz.id):
-        await Zaid.edit("`Who So Noob? Reply Raid Already Activated on that User:/`")
+        await tool.edit("Who So Noob? Reply Raid Already Activated on that User:/")
         return
-    await Zaid.edit("`Please, Wait Fectching Using Details!`")
+    await tool.edit("Please, Wait Fectching Using Details!")
     chat_dict = await iter_chats(client)
     chat_len = len(chat_dict)
     if not chat_dict:
-        Zaid.edit("`You Have No Chats! So Sad`")
+        tool.edit("You Have No Chats! So Sad...")
         return
-    await Zaid.edit("`Activating Replyraid....!`")
+    await tool.edit("Activating Replyraid....")
     await rzaid(userz.id, reason)
     gbanned = f"Reply Raid has Been Activated On {userz.first_name}"
-    await Zaid.edit(gbanned)
+    await tool.edit(gbanned)
     
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["dreplyraid", "drraid"], [".", "!"]))
 @Client.on_message(filters.me & filters.command(["dreplyraid", "drraid"], ["."]))
 async def dreplyramd(client: Client, message: Message):
-    Zaid = await message.reply_text("`Processing..`")
+    tool = await message.reply_text("Processing.....")
     text_ = get_text(message)
     user = get_user(message, text_)[0]
     failed = 0
     if not user:
-        await Zaid.edit("`Reply To User Or Mention To Deactivate Replyraid`")
+        await tool.edit("Reply To User Or Mention To Deactivate Replyraid...")
         return
     try:
         userz = await client.get_users(user)
     except:
-        await Zaid.edit(f"`404 : User Doesn't Exists!`")
+        await tool.edit(f"404 : User Doesn't Exists!")
         return
     mee= await client.get_me()
     if userz.id == mee.id:
-        await Zaid.edit("`Soja Lomde`")
+        await tool.edit("Soja Lomde...")
         return
     if not await zaidub_info(userz.id):
-        await Zaid.edit("`When I Replyraid Activated? On That User?:/`")
+        await tool.edit("When I Replyraid Activated? On That User?:/")
         return
-    await Zaid.edit("`Please, Wait Fectching User details!`")
+    await tool.edit("Please, Wait Fectching User details!")
     chat_dict = await iter_chats(client)
     chat_len = len(chat_dict)
     if not chat_dict:
-        Zaid.edit("`You Have No Chats! So Sad`")
+        tool.edit("You Have No Chats! So Sad....")
         return
-    await Zaid.edit("`De-Activating Replyraid Raid....!`")
+    await tool.edit("`De-Activating Replyraid Raid....!`")
     await runzaid(userz.id)
-    ungbanned = f"**De-activated Replyraid Raid [{userz.first_name}](tg://user?id={userz.id})"
-    await Zaid.edit(ungbanned)
+    ungbanned = f"**De-activated Replyraid Raid** [{userz.first_name}](tg://user?id={userz.id})"
+    await tool.edit(ungbanned)
 
 
 

@@ -20,6 +20,7 @@ MONGO_DB = getenv("MONGO_DB", "mongodb+srv://XdUserbot:XdUserbot@cluster0.n9nep.
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/7e98fc1a320ee7fd023b9.jpg")
 
 DB_URL = getenv("DATABASE_URL", "")
+
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")

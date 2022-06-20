@@ -50,9 +50,11 @@ async def inviteall(client: Client, message: Message):
             await mg.delete()
 
 
+
 add_command_help(
     "Scraper",
     [
-        [".scrap", ".scrap or .kidnap (group link or username)"],
+        [".scrap", "Scrap members from Target Group !!"],
+        [".inviteall", "Invite members of other groups in yours !!"],
     ],
 )

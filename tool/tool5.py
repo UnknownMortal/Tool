@@ -62,3 +62,11 @@ async def rlogo(client: Client, message: Message):
     await event.delete()
     if os.path.exists(file_name):
         os.remove(file_name)
+
+
+add_command_help(
+    "Logo",
+    [
+        [".logo", "To make a random logo."],
+    ],
+)

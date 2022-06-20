@@ -1,1 +1,1 @@
-worker: bash tool
+worker: bash start

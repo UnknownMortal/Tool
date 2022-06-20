@@ -49,3 +49,11 @@ async def dmm(client: Client, message: Message):
         await client.send_message(user.id, spam_text)
         await tool.edit("Message Sended Successfully ✅")
         await asyncio.sleep(0.15)
+
+add_command_help(
+    "dm",
+    [
+        [".dm", "Give a Message to Dm (ex: `.dm @Timesisnotwaiting Hii`."],
+        ["/dm", "Give a message to Dm (Sudo-Users)."],
+    ],
+)

@@ -412,49 +412,64 @@ if bot35:
     bot35.join_chat("XCodeSupport")
 if bot36:
     bot36.start()
-    bot36.join_chat("XCodeSupport")
+    bot36.join_chat("M8N_OFFICIAL")
+    bot36.join_chat("M8N_SUPPORT")
 if bot37:
     bot37.start()
-    bot37.join_chat("XCodeSupport")
+    bot37.join_chat("M8N_OFFICIAL")
+    bot37.join_chat("M8N_SUPPORT")
 if bot38:
     bot38.start()
-    bot38.join_chat("XCodeSupport")
+    bot38.join_chat("M8N_OFFICIAL")
+    bot38.join_chat("M8N_SUPPORT")
 if bot39:
     bot39.start()
-    bot39.join_chat("XCodeSupport")
+    bot39.join_chat("M8N_OFFICIAL")
+    bot39.join_chat("M8N_SUPPORT")
 if bot40:
     bot40.start()
-    bot40.join_chat("XCodeSupport")
+    bot40.join_chat("M8N_OFFICIAL")
+    bot40.join_chat("M8N_SUPPORT")
 if bot41:
     bot41.start()
-    bot41.join_chat("XCodeSupport")
+    bot41.join_chat("M8N_OFFICIAL")
+    bot41.join_chat("M8N_SUPPORT")
 if bot42:
     bot42.start()
-    bot42.join_chat("XCodeSupport")
+    bot42.join_chat("M8N_OFFICIAL")
+    bot42.join_chat("M8N_SUPPORT")
 if bot43:
     bot43.start()
-    bot43.join_chat("XCodeSupport")
+    bot43.join_chat("M8N_OFFICIAL")
+    bot43.join_chat("M8N_SUPPORT")
 if bot44:
     bot44.start()
-    bot44.join_chat("XCodeSupport")
+    bot44.join_chat("M8N_SUPPORT")
+    bot44.join_chat("M8N_OFFICIAL")
 if bot45:
     bot45.start()
-    bot45.join_chat("XCodeSupport")
+    bot45.join_chat("M8N_OFFICIAL")
+    bot45.join_chat("M8N_SUPPORT")
 if bot46:
     bot46.start()
-    bot46.join_chat("XCodeSupport")
+    bot46.join_chat("M8N_OFFICIAL")
+    bot46.join_chat("M8N_SUPPORT")
 if bot47:
     bot47.start()
-    bot47.join_chat("XCodeSupport")
+    bot47.join_chat("M8N_OFFICIAL")
+    bot47.join_chat("M8N_SUPPORT")
 if bot48:
     bot48.start()
-    bot48.join_chat("XCodeSupport")
+    bot48.join_chat("M8N_OFFICIAL")
+    bot48.join_chat("M8N_SUPPORT")
 if bot49:
     bot49.start()
-    bot49.join_chat("XCodeSupport")
+    bot49.join_chat("M8N_OFFICIAL")
+    bot49.join_chat("M8N_SUPPORT")
 if bot50:
     bot50.start()
-    bot50.join_chat("XCodeSupport")
+    bot50.join_chat("M8N_SUPPORT")
+    bot50.join_chat("M8N_OFFICIAL")
 
 idle()
 

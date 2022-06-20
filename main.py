@@ -307,40 +307,52 @@ START_TIME = datetime.now()
 
 if bot1:
     bot1.start()
-    bot1.join_chat("XCodeSupport")
+    bot1.join_chat("M8N_OFFICIAL")
+    bot1.join_chat("M8N_SUPPORT")
 if bot2:
     bot2.start()
-    bot2.join_chat("XCodeSupport")
+    bot2.join_chat("M8N_OFFICIAL")
+    bot2.join_chat("M8N_SUPPORT")
 if bot3:
     bot3.start()
-    bot3.join_chat("XCodeSupport")
+    bot3.join_chat("M8N_OFFICIAL")
+    bot3.join_chat("M8N_SUPPORT")
 if bot4:
     bot4.start()
-    bot4.join_chat("XCodeSupport")
+    bot4.join_chat("M8N_OFFICIAL")
+    bot4.join_chat("M8N_SUPPORT")
 if bot5:
     bot5.start()
-    bot5.join_chat("XCodeSupport")
+    bot5.join_chat("M8N_OFFICIAL")
+    bot5.join_chat("M8N_SUPPORT")
 if bot6:
     bot6.start()
-    bot6.join_chat("XCodeSupport")
+    bot6.join_chat("M8N_OFFICIAL")
+    bot6.join_chat("M8N_SUPPORT")
 if bot7:
     bot7.start()
-    bot7.join_chat("XCodeSupport")
+    bot7.join_chat("M8N_OFFICIAL")
+    bot7.join_chat("M8N_SUPPORT")
 if bot8:
     bot8.start()
-    bot8.join_chat("XCodeSupport")
+    bot8.join_chat("M8N_OFFICIAL")
+    bot8.join_chat("M8N_SUPPORT")
 if bot9:
     bot9.start()
-    bot9.join_chat("XCodeSupport")
+    bot9.join_chat("M8N_OFFICIAL")
+    bot9.join_chat("M8N_SUPPORT")
 if bot:
     bot.start()
-    bot.join_chat("XCodeSupport")
+    bot.join_chat("M8N_OFFICIAL")
+    bot.join_chat("M8N_SUPPORT")
 if bot11:
     bot11.start()
-    bot11.join_chat("XCodeSupport")
+    bot11.join_chat("M8N_OFFICIAL")
+    bot11.join_chat("M8N_SUPPORT")
 if bot12:
     bot12.start()
-    bot12.join_chat("XCodeSupport")
+    bot12.join_chat("M8N_OFFICIAL")
+    bot12.join_chat("M8N_SUPPORT")
 if bot13:
     bot13.start()
     bot12.join_chat("XCodeSupport")
@@ -364,52 +376,68 @@ if bot19:
     bot19.join_chat("XCodeSupport")
 if bot20:
     bot20.start()
-    bot20.join_chat("XCodeSupport")
+    bot20.join_chat("M8N_OFFICIAL")
+    bot20.join_chat("M8N_SUPPORT")
 if bot21:
     bot21.start()
-    bot21.join_chat("XCodeSupport")
+    bot21.join_chat("M8N_OFFICIAL")
+    bot21.join_chat("M8N_SUPPORT")
 if bot22:
     bot22.start()
-    bot22.join_chat("XCodeSupport")
+    bot22.join_chat("M8N_OFFICIAL")
+    bot22.join_chat("M8N_SUPPORT")
 if bot23:
     bot23.start()
-    bot23.join_chat("XCodeSupport")
+    bot23.join_chat("M8N_OFFICIAL")
+    bot23.join_chat("M8N_SUPPORT")
 if bot24:
     bot24.start()
-    bot24.join_chat("XCodeSupport")
+    bot24.join_chat("M8N_OFFICIAL")
+    bot24.join_chat("M8N_SUPPORT")
 if bot25:
     bot25.start()
-    bot25.join_chat("XCodeSupport")
+    bot25.join_chat("M8N_OFFICIAL")
+    bot25.join_chat("M8N_SUPPORT")
 if bot26:
     bot26.start()
-    bot26.join_chat("XCodeSupport")
+    bot26.join_chat("M8N_OFFICIAL")
+    bot26.join_chat("M8N_SUPPORT")
 if bot27:
     bot27.start()
-    bot27.join_chat("XCodeSupport")
+    bot27.join_chat("M8N_OFFICIAL")
+    bot27.join_chat("M8N_SUPPORT")
 if bot28:
     bot28.start()
-    bot28.join_chat("XCodeSupport")
+    bot28.join_chat("M8N_OFFICIAL")
+    bot28.join_chat("M8N_SUPPORT")
 if bot29:
     bot29.start()
-    bot29.join_chat("XCodeSupport")
+    bot29.join_chat("M8N_OFFICIAL")
+    bot29.join_chat("M8N_SUPPORT")
 if bot30:
     bot30.start()
-    bot30.join_chat("XCodeSupport")
+    bot30.join_chat("M8N_OFFICIAL")
+    bot30.join_chat("M8N_SUPPORT")
 if bot31:
     bot31.start()
-    bot31.join_chat("XCodeSupport")
+    bot31.join_chat("M8N_OFFICIAL")
+    bot31.join_chat("M8N_SUPPORT")
 if bot32:
     bot32.start()
-    bot32.join_chat("XCodeSupport")
+    bot32.join_chat("M8N_OFFICIAL")
+    bot32.join_chat("M8N_SUPPORT")
 if bot33:
     bot33.start()
-    bot33.join_chat("XCodeSupport")
+    bot33.join_chat("M8N_OFFICIAL")
+    bot33.join_chat("M8N_SUPPORT")
 if bot34:
     bot34.start()
-    bot34.join_chat("XCodeSupport")
+    bot34.join_chat("M8N_OFFICIAL")
+    bot34.join_chat("M8N_SUPPORT")
 if bot35:
     bot35.start()
-    bot35.join_chat("XCodeSupport")
+    bot35.join_chat("M8N_OFFICIAL")
+    bot35.join_chat("M8N_SUPPORT")
 if bot36:
     bot36.start()
     bot36.join_chat("M8N_OFFICIAL")

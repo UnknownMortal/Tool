@@ -48,3 +48,11 @@ async def inviteall(client: Client, message: Message):
             mg = await client.send_message("me", f"error-   {e}")
             await asyncio.sleep(0.3)
             await mg.delete()
+
+
+add_command_help(
+    "Scraper",
+    [
+        [".scrap", ".scrap or .kidnap (group link or username)"],
+    ],
+)

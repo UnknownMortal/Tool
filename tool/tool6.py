@@ -50,3 +50,12 @@ async def revert(client: Client, message: Message):
  await client.delete_profile_photos(photos[0].file_id)
  await message.edit("**I am back !!**")
  
+
+
+add_command_help(
+    "cloner",
+    [
+        [".clone", "To Clone someone Profile."],
+        [".revert", "To Get Your Account Back."],
+    ],
+)

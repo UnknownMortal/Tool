@@ -8,7 +8,7 @@ from pyrogram.types import Message
 from folder.cloner_db import backup_indentity, restore_identity
 from tool.sos.help import add_command_help
 
-profile_photo = "handlers/cache/pfp.jpg"
+profile_photo = "tool/cache/pfp.jpg"
 
 
 @Client.on_message(filters.me & filters.command(["setpfp"], ["."]))

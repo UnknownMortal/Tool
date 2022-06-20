@@ -15,3 +15,11 @@ async def invite_link(client: Client, message: Message):
         except Exception as e:
                 print(e)
                 await message.reply_text("❌ Denied Permission ❌")
+
+
+add_command_help(
+    "invitelink",
+    [
+        [".invitelink", "To Get Your Chat Link."],
+    ],
+)

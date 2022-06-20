@@ -1,8 +1,8 @@
 {
     "name": "Inflex M8N ToolKit",
     "description": "A useful toolkit with multiple clients based on Pyrogram !!",
-    "logo": "https://telegra.ph/file/7e98fc1a320ee7fd023b9.jpg",
-    "repository": "https://github.com/NitricXd/XD-USERBOT",
+    "logo": "",
+    "repository": "https://github.com/UnknownMortal/Tool",
     "env": {
         "STRING_SESSION1": {
             "description": "pyrogram string session here",

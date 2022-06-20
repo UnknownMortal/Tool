@@ -110,3 +110,15 @@ async def spam_stick(client: Client, message: Message):
                     message.chat.id, sticker
                 )
                 await asyncio.sleep(0.10)
+
+
+add_command_help(
+    "Spam",
+    [
+        [".dspam", "It will Spam then delete it's spam automatically."],
+        [".spam", "Spam Your Custom Message  (Sudo User also)."],
+        [".sspam", "Sticker Spam  (Sudo Users also)."],
+        [".delayspam", "Spam Slowly (Sudo User also)."],
+        [".fastspam", "Spam Your message fastly  (Sudo User also)."],
+    ],
+)

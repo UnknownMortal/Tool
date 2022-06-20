@@ -468,8 +468,8 @@ if bot49:
     bot49.join_chat("M8N_SUPPORT")
 if bot50:
     bot50.start()
-    bot50.join_chat("M8N_SUPPORT")
     bot50.join_chat("M8N_OFFICIAL")
+    bot50.join_chat("M8N_SUPPORT")
 
 idle()
 

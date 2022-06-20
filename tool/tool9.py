@@ -84,7 +84,7 @@ from main import *
 from pyrogram import Client
 from tool.sos.help import *
 
-ALIVE_PIC = " "
+ALIVE_PIC = "https://telegra.ph//file/daea7970dafcd3a148488.jpg"
  
 
  

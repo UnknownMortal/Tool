@@ -212,6 +212,10 @@
             "description": "Who have Access Your Account But Rearly Plugins there",
             "required": true
         },
+        "MONGO_DB": {
+            "description": "Enter Your Mongo Database Url !!",
+            "required": true
+        },
         "HEROKU_API": {
             "description": "Enter You Heroku Api there",
             "required": false

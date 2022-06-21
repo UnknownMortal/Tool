@@ -1,1 +1,1 @@
-worker: bash tool
+worker: python3 -m tool

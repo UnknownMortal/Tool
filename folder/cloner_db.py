@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String, UnicodeText
 
-from helpers.SQL import BASE, SESSION
+from folder import BASE, SESSION
 from pyrogram import Client
 
 

@@ -32,6 +32,12 @@ if not API_HASH:
     logging.error("No ApiHash Found! Exiting....")
     quit(1)
 
+if MONGO_DB:
+    MONGO_DB = MONGO_DB
+else: 
+    MONGO_DB = None
+    print("MongoDB Not Found !! Contact at @M8N_SUPPORT....")
+
 if LOG_GROUP:
     Owner = LOG_GROUP
 else:

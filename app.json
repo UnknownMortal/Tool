@@ -216,14 +216,6 @@
             "description": "Enter Your Mongo Database Url !!",
             "required": true
         },
-        "HEROKU_API": {
-            "description": "Enter You Heroku Api there",
-            "required": false
-        },
-        "HEROKU_APP_NAME": {
-            "description": "Enter Your heroku App Name Here",
-            "required": false
-        },
         "API_HASH": {
             "description": "telegram api hash here",
             "required": true

@@ -1,4 +1,4 @@
-from folder import dbb
+from folder.file import dbb
 
 Rbun = dbb["RBAN"]
 

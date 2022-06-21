@@ -5,7 +5,14 @@
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
 ## 
-<p align="center">🗒️ REPO STATS </p>
+<b> <p align="center">🗒️ REPO STATS </p> </b>
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=UnknownMortal&repo=Tool&theme=dark)
 
+
+<b> <h3> 🔰 Requirements </h3> </b>
+
+- PyroGram Session
+- Fake telegram accounts
+- Python 3.8+ or 3.7
+- Mongo Db

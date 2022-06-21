@@ -36,4 +36,9 @@ For a safe deployment fork this repo and also give a star !!
 <p align="center"><a href="https://t.me/M8N_SUPPORT"><img src="https://img.shields.io/badge/Support-Group-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
 <p align="center"><a href="https://t.me/M8N_OFFICIAL"><img src="https://img.shields.io/badge/Support-Channel-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
 
+<br>
 
+### <b> 🍭 SPECIAL CREDIT </b>
+- Zaid Userbot
+- @LeviFox
+- @Cool_Mortal

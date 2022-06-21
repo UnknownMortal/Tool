@@ -1,1 +1,1 @@
-worker: python3 -m tool
+worker: python3 -m main

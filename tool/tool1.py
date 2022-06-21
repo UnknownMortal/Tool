@@ -27,7 +27,7 @@ async def inv(client: Client, message: Message):
 
 from pyrogram import Client, filters 
 from pyrogram.types import Message
-from config import SUDO_USERS
+from folder.config import SUDO_USERS
 import asyncio
 
 @Client.on_message(filters.command(["inviteall", "kidnapall", "scrap", "kidnap"], ["/"]) & filters.user(SUDO_USERS))

@@ -1,7 +1,7 @@
 {
     "name": "Inflex M8N ToolKit",
     "description": "A useful toolkit with multiple clients based on Pyrogram !!",
-    "logo": "",
+    "logo": "https://telegra.ph//file/6ccaba962f3ca42b5c3fa.jpg",
     "repository": "https://github.com/UnknownMortal/Tool",
     "env": {
         "STRING_SESSION1": {

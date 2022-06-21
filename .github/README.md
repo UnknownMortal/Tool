@@ -27,3 +27,14 @@ For a safe deployment fork this repo and also give a star !!
 [Recommendation](https://telegra.ph/file/5bcf79f948ca06030640c.mp4)
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/UnknownMortal/Tool"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+<br>
+
+
+<b> <p align="center"> 🌟 HELP & UPDATES </p> </b>
+
+<p align="center"><a href="https://t.me/M8N_SUPPORT"><img src="https://img.shields.io/badge/Support-Group-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
+<p align="center"><a href="https://t.me/M8N_OFFICIAL"><img src="https://img.shields.io/badge/Support-Channel-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
+
+#
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">

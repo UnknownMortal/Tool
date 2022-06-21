@@ -1,6 +1,4 @@
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<b> <p align="center"> M8N Toolkit </p> </b>
+<b> <p align="center">Inflex M8N Toolkit </p> </b>
 
 <p align="center"><a href="https://t.me/TheXCodeTeam"><img src="https://telegra.ph/file/7e98fc1a320ee7fd023b9.jpg" width="300"></a></p>
 <p align="center">
